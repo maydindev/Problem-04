@@ -2,7 +2,7 @@ import React from 'react'
 
 const SignIn = () => {
   return (
-    <a href='#' className='navbar-link' onClick={handleClick}>
+    <a href='#' className='navbar-link'>
             Sign in
           </a>
   )
