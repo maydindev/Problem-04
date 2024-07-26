@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SignOut = () => {
+const SignOut = ({onClickSignOut}) => {
   return (
-    <a href='#' className='navbar-link'>
+    <a href='#' className='navbar-link' onClick={onClickSignOut}>
             Sign out
           </a>
   )
